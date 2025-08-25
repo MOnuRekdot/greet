@@ -1,6 +1,4 @@
-def greet(name: str) -> str:
-    return f"Hello, {name}!"
-
-if __name__ == "__main__":
-    name = input("What's your name? ").strip() or "Student"
-    print(greet(name))
+def greet(name):
+    print(f"Hello {name}, Welcome To The Program! ")
+greet("Monu")
+    
